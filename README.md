@@ -17,57 +17,57 @@ They wanted to understand the factors on which the demand for these shared bikes
 # Data set : day.csv
 
 # Technolgies used:
-Python pandas - Version : 1.2.4
-numpy - Version : 1.20.1
-seaborn - Version : 0.11.1
-matplotlib - Version : 3.3.4
-statsmodels - Version : 0.12.2
-pandasql - Version : 0.7.3
-sklearn - Version :0.24.2
+ ## Python pandas - Version : 1.2.4
+ ## numpy - Version : 1.20.1
+ ## seaborn - Version : 0.11.1
+ ## matplotlib - Version : 3.3.4
+ ## statsmodels - Version : 0.12.2
+ ## pandasql - Version : 0.7.3
+ ## sklearn - Version :0.24.2
 
 # Exploratory Data Analysis & Model Steps
 
 ## Steps
 # EDA
-. Data cleaning and Missing data anlysis
-. outlier Analysis & Tretament Assumptions  values
-. Deriving Categorical Columns
+ ## . Data cleaning and Missing data anlysis
+ ## . outlier Analysis & Tretament Assumptions  values
+ ## . Deriving Categorical Columns
 
 # Model Preperation
-. Training and Test data Split
-. Feature scaling - standarad scaler
-. feature Engineering and selection using RFE and variance inflation factor
-. Model prepartion
-. Model Evaluation & Assessment
-. Prediction
-. Final conclusion and anlaysis
+  ## . Training and Test data Split
+  ## . Feature scaling - standarad scaler
+  ## . feature Engineering and selection using RFE and variance inflation factor
+  ## . Model prepartion
+  ## . Model Evaluation & Assessment
+  ## . Prediction
+  ## . Final conclusion and anlaysis
 
 # Conclusion:
 
-EDA Analysis:
- Hence we can conclude the final model
-. The company should focus on the follwing features.  . Company should focus on bussines when hum and windspeed are high by providing safety 
-. Based on data it expected to have a boom in  number of users once situation comes back to normal.
- . There would be less bookings during weathersit_Mist_cloudy, they could probably use this time to serive the bikes without having business impact.
- . Hence when the situation comes back to normal, the company should come up with new offers during spring when the weather is pleasant and also advertise a little for September as this is when business would be at its best.
+## EDA Analysis:
+ ## Hence we can conclude the final model
+## . The company should focus on the follwing features.  . Company should focus on bussines when hum and windspeed are high by providing safety 
+## . Based on data it expected to have a boom in  number of users once situation comes back to normal.
+## . There would be less bookings during weathersit_Mist_cloudy, they could probably use this time to serive the bikes without having business impact.
+## . Hence when the situation comes back to normal, the company should come up with new offers during spring when the weather is pleasant and also advertise a little for September as this is when business would be at its best.
 
-.  When tempearture is good there are high no of rental bikes
-. Hum and windspeed is high count is less
- . sat and has high sales of bike rental
- . temp has high correlation and taking bike rental demand is going high are good at that time
- . spring , mnth _nov and mnth_dec has there are less demand
- . mnth_sep, season winter has bit demand of bikes
+## .  When tempearture is good there are high no of rental bikes
+## . Hum and windspeed is high count is less
+## . sat and has high sales of bike rental
+## . temp has high correlation and taking bike rental demand is going high are good at that time
+## . spring , mnth _nov and mnth_dec has there are less demand
+## . mnth_sep, season winter has bit demand of bikes
 
 
  # Significant variables to predict the demand for shared bikes
 
- . Working day
- . temp
- . hum
- . windspeed
- . Season (Spring, Winter)
- . Month (Dec, Sep, Nov)
- . Weatherist_mist_cloudy
+ ### . Working day
+ ### . temp
+ ### . hum
+ ### . windspeed
+ ### . Season (Spring, Winter)
+ ###  . Month (Dec, Sep, Nov)
+ ###  . Weatherist_mist_cloudy
 
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
